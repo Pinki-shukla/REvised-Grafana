@@ -1,0 +1,33 @@
+global:
+  scrape_interval: 10s
+  evaluation_interval: 10s
+
+rule_files:
+  - alertrules.yml
+
+alerting:
+  alertmanagers:
+    - static_configs:
+      - targets:
+        - 192.168.1.60:9093
+
+scrape_configs:
+  - job_name: 'prometheus'
+    scrape_interval: 5s
+    static_configs:
+      - targets:
+        - localhost:9090
+  - job_name: 'node'
+    scrape_interval: 5s
+    static_configs:
+      - targets:
+        - 192.168.1.60:9100  # Node Exporter's default port is 9100
+
+  # Uncomment and modify this section for your 'prom_middleware' job.
+  # - job_name: 'prom_middleware'
+  #   scrape_interval: 5s
+  #   static_configs:
+  #     - targets:
+  #       - localhost:9091  # Modify to match your middleware's port
+
+
