@@ -283,12 +283,12 @@ Where:
 
 http://localhost:3001 hit on the web browser to see the Grafana login page in your web browser.
 
-![](images/welcome1.png)
+![](.images/welcome1.png)
 
-![](images/vim%20demo%20grafana.png)
+![](.images/vim%20demo%20grafana.png)
 
 ## Use these options to create dashboards and alerts.
-![](images/vim%20manager%20grafana.png)
+![](.images/vim%20manager%20grafana.png)
 
 ## Step-3 Create Prometheus container on Podman:
 
