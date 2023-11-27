@@ -60,7 +60,7 @@ Node Exporter collects a wide range of system metrics, including CPU Usage, Memo
 ```
 sudo apt update
 ```
-####Output:-
+#### Output:-
 ```
 pinki@keenable:~$ sudo apt update
 [sudo] password for pinki: 
@@ -548,7 +548,7 @@ pinki@keenable:~$
  ![](/images/grafana%20images.png)
 ## Grafana setup has been ready with Dashboard. 
 
-![](images/grafana%20dashboard%20setup.png)
+![](./images/grafana%20dashboard%20setup.png)
 
 
     
