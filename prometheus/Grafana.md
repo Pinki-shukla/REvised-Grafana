@@ -497,7 +497,7 @@ b7cbaf2e5b4eeb25dd2f166f1afa9c085185b834e7ad18c15acd00a8c2532ddf
 pinki@keenable:~$ 
 
  ```
-![](./images/vim%20node%20exporter.png)
+
 
 #### Command Description:-
 
