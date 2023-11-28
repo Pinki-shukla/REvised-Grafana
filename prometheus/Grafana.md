@@ -538,7 +538,7 @@ pinki@keenable:~$
 
 ```
 
- ![](./images/grafana%20images.png)
+ ![](../images/grafana%20images.png)
 ## Grafana setup has been ready with Dashboard. 
 
 ![](./images/grafana%20dashboard%20setup.png)
