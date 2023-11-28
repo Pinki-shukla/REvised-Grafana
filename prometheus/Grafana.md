@@ -276,6 +276,8 @@ Where:
 
 http://localhost:3001 hit on the web browser to see the Grafana login page in your web browser.
 
+Use Default user name (admin) and password (admin) to login into the grafana.
+
 ![](images/welcome1.png)
 
 ![](images/vim%20demo%20grafana.png)
