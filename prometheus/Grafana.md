@@ -443,7 +443,7 @@ pinki@keenable:~/prometheus$
 
 
 ```
- ![](images/vim%20prometheus.png)
+ ![](..images/vim%20prometheus.png)
 
 #### Command Description:-
 <b>podman run:</b> This part of the command instructs podman to run a container.
