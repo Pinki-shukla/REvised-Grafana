@@ -13,7 +13,7 @@ Regular collection of information and data to measure progress of projects and a
 
 * OS Name : Ubuntu 22.04.6 LTS
 * Podman version:- 3.4.2
-* RAM : 5.6 GiB
+* RAM : 2054 Mib
 * CPU : 2
 * STORAGE : 512 GB
   
