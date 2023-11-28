@@ -267,14 +267,14 @@ pinki@keenable:~$
 
 Where:
 
-<b>  run</b> = run directly from the command line
-<b>d </b>= run in the background
-<b>p </b>= assign the port number, which in this case is 3001
-<b>name</b> = assign a  name to the container, for example, grafana
+<b>  run</b> = run directly from the command line<br>
+<b>d </b>= run in the background<br>
+<b>p </b>= assign the port number, which in this case is 3001<br>
+<b>name</b> = assign a  name to the container, for example, grafana<br>
 
-<v> docker.io/grafana/grafana-enterprise: </b> This is the name of the image we want to run inside the container. It's called 'grafana-enterprise,' and it's stored in a special place on the internet called 'Docker Hub.'
+<v> docker.io/grafana/grafana-enterprise: </b> This is the name of the image we want to run inside the container. It's called 'grafana-enterprise,' and it's stored in a special place on the internet called 'Docker Hub.'<br>
 
-http://localhost:3001 hit on the web browser to see the Grafana login page in your web browser.
+http://localhost:3001 hit on the web browser to see the Grafana login page in your web browser.<br>
 
 Use Default user name (admin) and password (admin) to login into the grafana.
 
@@ -283,7 +283,9 @@ Use Default user name (admin) and password (admin) to login into the grafana.
 ![](images/vim%20demo%20grafana.png)
 
 ## Use these options to create dashboards and alerts.
-![](images/vim%20manager%20grafana.png)
+![](images/vim%20manager%20grafana.png)<br>
+
+Now we are moving forward to Step 3 for installing prometheus container bacause grafana need to fetch data from the prometheus. Prometheus working with grafana as a data source.
 
 ## Step-3 Create Prometheus container on Podman:
 
@@ -474,7 +476,7 @@ http://localhost:9090 on the web browser to see the prometheus.
 
 
   ![](expoerters.png)
-
+Now moving forward to step 4 for the installation of Node-exporeter beacause prometheus need exporter to export the data from our system.
  ## Step-4 Create Node exporter container on podman
 
 #### Command:-
