@@ -11,19 +11,12 @@
 Regular collection of information and data to measure progress of projects and activities so we can track performance and resources utilization over time.
 ## System Configuration:
 
-OS- Ubuntu 20.04 64-bit
-CPU- 8 Core (optional)
-
-- For small to medium-sized setups monitoring a few dozen hosts and services, a single-core CPU should be sufficient.
-
-- Larger environments with hundreds or thousands of hosts and services may benefit from a multi-core CPU, such as a dual-core or quad-core processor.
-
-Storage- 1 TB (optional)
-Memory- 409Mib
-
-- For a small to medium-sized setup monitoring a few dozen hosts and services, a minimum of 1 GB to 2 GB of RAM is often sufficient.
-
-- Larger environments with hundreds or thousands of hosts and services may require more RAM, ranging from 4 GB to 8 GB or more.
+* OS Name : Ubuntu 22.04.6 LTS
+* Podman version:- 3.4.2
+* RAM : 5.6 GiB
+* CPU : 2
+* STORAGE : 512 GB
+  
 
 ## Prerequisite tools:
   
@@ -283,12 +276,12 @@ Where:
 
 http://localhost:3001 hit on the web browser to see the Grafana login page in your web browser.
 
-![](.images/welcome1.png)
+![](images/welcome1.png)
 
-![](.images/vim%20demo%20grafana.png)
+![](images/vim%20demo%20grafana.png)
 
 ## Use these options to create dashboards and alerts.
-![](.images/vim%20manager%20grafana.png)
+![](images/vim%20manager%20grafana.png)
 
 ## Step-3 Create Prometheus container on Podman:
 
@@ -504,7 +497,7 @@ b7cbaf2e5b4eeb25dd2f166f1afa9c085185b834e7ad18c15acd00a8c2532ddf
 pinki@keenable:~$ 
 
  ```
-![](images/vim%20node%20exporter.png)
+![](./images/vim%20node%20exporter.png)
 
 #### Command Description:-
 
@@ -545,7 +538,7 @@ pinki@keenable:~$
 
 ```
 
- ![](/images/grafana%20images.png)
+ ![](./images/grafana%20images.png)
 ## Grafana setup has been ready with Dashboard. 
 
 ![](./images/grafana%20dashboard%20setup.png)
