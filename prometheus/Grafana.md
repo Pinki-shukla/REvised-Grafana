@@ -262,7 +262,7 @@ pinki@keenable:~$
 
 
 ```
-![](images/vim%20grafana%20command.png)
+![](..images/vim%20grafana%20command.png)
 
 
 Where:
